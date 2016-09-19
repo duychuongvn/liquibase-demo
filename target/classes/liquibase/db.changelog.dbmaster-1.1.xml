@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog 
+http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd"
+logicalFilePath="db.changelog.dbmaster-1.1.xml">
+ 
+    <changeSet author="caoky (generated)" id="1474285502782-1" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+        <addColumn tableName="user">
+            <column name="age" type="INT"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="caoky (generated)" id="1474286216186-1" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+        <addColumn tableName="user">
+            <column name="dob" type="DATE(10)"/>
+        </addColumn>
+    </changeSet>
+</databaseChangeLog>
